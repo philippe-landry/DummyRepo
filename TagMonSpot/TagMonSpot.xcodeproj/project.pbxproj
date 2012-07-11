@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82FA4D2159A3BD200A2EB82 /* AddSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FA4D1159A3BD200A2EB82 /* AddSceneViewController.m */; };
+		A82FA4D5159A512500A2EB82 /* SelectLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FA4D4159A512500A2EB82 /* SelectLocationViewController.m */; };
+		A82FA4D7159A52BC00A2EB82 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82FA4D6159A52BC00A2EB82 /* MapKit.framework */; };
+		A82FA4E3159A546300A2EB82 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = A82FA4E1159A546200A2EB82 /* compass.png */; };
+		A82FA4E4159A546300A2EB82 /* compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82FA4E2159A546200A2EB82 /* compass@2x.png */; };
+		A8AA56461594DEA6008B2D96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AA56451594DEA6008B2D96 /* UIKit.framework */; };
+		A8AA56481594DEA6008B2D96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AA56471594DEA6008B2D96 /* Foundation.framework */; };
+		A8AA564A1594DEA6008B2D96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AA56491594DEA6008B2D96 /* CoreGraphics.framework */; };
+		A8AA564C1594DEA6008B2D96 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AA564B1594DEA6008B2D96 /* CoreData.framework */; };
+		A8AA56521594DEA6008B2D96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8AA56501594DEA6008B2D96 /* InfoPlist.strings */; };
+		A8AA56541594DEA6008B2D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AA56531594DEA6008B2D96 /* main.m */; };
+		A8AA56581594DEA6008B2D96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AA56571594DEA6008B2D96 /* AppDelegate.m */; };
+		A8AA565B1594DEA6008B2D96 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AA56591594DEA6008B2D96 /* MainStoryboard_iPhone.storyboard */; };
+		A8AA565E1594DEA6008B2D96 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AA565C1594DEA6008B2D96 /* MainStoryboard_iPad.storyboard */; };
+		A8AA56611594DEA7008B2D96 /* TagMonSpot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8AA565F1594DEA6008B2D96 /* TagMonSpot.xcdatamodeld */; };
+		A8AA56641594DEA7008B2D96 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AA56631594DEA7008B2D96 /* MasterViewController.m */; };
+		A8AA56671594DEA7008B2D96 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AA56661594DEA7008B2D96 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A82FA4AD159A12A100A2EB82 /* TagMonSpot 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TagMonSpot 2.xcdatamodel"; sourceTree = "<group>"; };
+		A82FA4D0159A3BD200A2EB82 /* AddSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSceneViewController.h; sourceTree = "<group>"; };
+		A82FA4D1159A3BD200A2EB82 /* AddSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSceneViewController.m; sourceTree = "<group>"; };
+		A82FA4D3159A512500A2EB82 /* SelectLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLocationViewController.h; sourceTree = "<group>"; };
+		A82FA4D4159A512500A2EB82 /* SelectLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLocationViewController.m; sourceTree = "<group>"; };
+		A82FA4D6159A52BC00A2EB82 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A82FA4E1159A546200A2EB82 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compass.png; path = Resources/compass.png; sourceTree = "<group>"; };
+		A82FA4E2159A546200A2EB82 /* compass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "compass@2x.png"; path = "Resources/compass@2x.png"; sourceTree = "<group>"; };
+		A8AA56411594DEA6008B2D96 /* TagMonSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagMonSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8AA56451594DEA6008B2D96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8AA56471594DEA6008B2D96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8AA56491594DEA6008B2D96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8AA564B1594DEA6008B2D96 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A8AA564F1594DEA6008B2D96 /* TagMonSpot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TagMonSpot-Info.plist"; sourceTree = "<group>"; };
+		A8AA56511594DEA6008B2D96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8AA56531594DEA6008B2D96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8AA56551594DEA6008B2D96 /* TagMonSpot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TagMonSpot-Prefix.pch"; sourceTree = "<group>"; };
+		A8AA56561594DEA6008B2D96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8AA56571594DEA6008B2D96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8AA565A1594DEA6008B2D96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A8AA565D1594DEA6008B2D96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A8AA56601594DEA6008B2D96 /* TagMonSpot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TagMonSpot.xcdatamodel; sourceTree = "<group>"; };
+		A8AA56621594DEA7008B2D96 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A8AA56631594DEA7008B2D96 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A8AA56651594DEA7008B2D96 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A8AA56661594DEA7008B2D96 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8AA563E1594DEA6008B2D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82FA4D7159A52BC00A2EB82 /* MapKit.framework in Frameworks */,
+				A8AA56461594DEA6008B2D96 /* UIKit.framework in Frameworks */,
+				A8AA56481594DEA6008B2D96 /* Foundation.framework in Frameworks */,
+				A8AA564A1594DEA6008B2D96 /* CoreGraphics.framework in Frameworks */,
+				A8AA564C1594DEA6008B2D96 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8AA56361594DEA6008B2D96 = {
+			isa = PBXGroup;
+			children = (
+				A82FA4D6159A52BC00A2EB82 /* MapKit.framework */,
+				A8AA564D1594DEA6008B2D96 /* TagMonSpot */,
+				A8AA56441594DEA6008B2D96 /* Frameworks */,
+				A8AA56421594DEA6008B2D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8AA56421594DEA6008B2D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8AA56411594DEA6008B2D96 /* TagMonSpot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8AA56441594DEA6008B2D96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8AA56451594DEA6008B2D96 /* UIKit.framework */,
+				A8AA56471594DEA6008B2D96 /* Foundation.framework */,
+				A8AA56491594DEA6008B2D96 /* CoreGraphics.framework */,
+				A8AA564B1594DEA6008B2D96 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8AA564D1594DEA6008B2D96 /* TagMonSpot */ = {
+			isa = PBXGroup;
+			children = (
+				A82FA4E1159A546200A2EB82 /* compass.png */,
+				A82FA4E2159A546200A2EB82 /* compass@2x.png */,
+				A8AA56561594DEA6008B2D96 /* AppDelegate.h */,
+				A8AA56571594DEA6008B2D96 /* AppDelegate.m */,
+				A8AA56591594DEA6008B2D96 /* MainStoryboard_iPhone.storyboard */,
+				A8AA565C1594DEA6008B2D96 /* MainStoryboard_iPad.storyboard */,
+				A8AA56621594DEA7008B2D96 /* MasterViewController.h */,
+				A8AA56631594DEA7008B2D96 /* MasterViewController.m */,
+				A8AA56651594DEA7008B2D96 /* DetailViewController.h */,
+				A8AA56661594DEA7008B2D96 /* DetailViewController.m */,
+				A8AA565F1594DEA6008B2D96 /* TagMonSpot.xcdatamodeld */,
+				A8AA564E1594DEA6008B2D96 /* Supporting Files */,
+				A82FA4D0159A3BD200A2EB82 /* AddSceneViewController.h */,
+				A82FA4D1159A3BD200A2EB82 /* AddSceneViewController.m */,
+				A82FA4D3159A512500A2EB82 /* SelectLocationViewController.h */,
+				A82FA4D4159A512500A2EB82 /* SelectLocationViewController.m */,
+			);
+			path = TagMonSpot;
+			sourceTree = "<group>";
+		};
+		A8AA564E1594DEA6008B2D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8AA564F1594DEA6008B2D96 /* TagMonSpot-Info.plist */,
+				A8AA56501594DEA6008B2D96 /* InfoPlist.strings */,
+				A8AA56531594DEA6008B2D96 /* main.m */,
+				A8AA56551594DEA6008B2D96 /* TagMonSpot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8AA56401594DEA6008B2D96 /* TagMonSpot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8AA566A1594DEA7008B2D96 /* Build configuration list for PBXNativeTarget "TagMonSpot" */;
+			buildPhases = (
+				A8AA563D1594DEA6008B2D96 /* Sources */,
+				A8AA563E1594DEA6008B2D96 /* Frameworks */,
+				A8AA563F1594DEA6008B2D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagMonSpot;
+			productName = TagMonSpot;
+			productReference = A8AA56411594DEA6008B2D96 /* TagMonSpot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8AA56381594DEA6008B2D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A8AA563B1594DEA6008B2D96 /* Build configuration list for PBXProject "TagMonSpot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8AA56361594DEA6008B2D96;
+			productRefGroup = A8AA56421594DEA6008B2D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8AA56401594DEA6008B2D96 /* TagMonSpot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8AA563F1594DEA6008B2D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AA56521594DEA6008B2D96 /* InfoPlist.strings in Resources */,
+				A8AA565B1594DEA6008B2D96 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A8AA565E1594DEA6008B2D96 /* MainStoryboard_iPad.storyboard in Resources */,
+				A82FA4E3159A546300A2EB82 /* compass.png in Resources */,
+				A82FA4E4159A546300A2EB82 /* compass@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8AA563D1594DEA6008B2D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AA56541594DEA6008B2D96 /* main.m in Sources */,
+				A8AA56581594DEA6008B2D96 /* AppDelegate.m in Sources */,
+				A8AA56611594DEA7008B2D96 /* TagMonSpot.xcdatamodeld in Sources */,
+				A8AA56641594DEA7008B2D96 /* MasterViewController.m in Sources */,
+				A8AA56671594DEA7008B2D96 /* DetailViewController.m in Sources */,
+				A82FA4D2159A3BD200A2EB82 /* AddSceneViewController.m in Sources */,
+				A82FA4D5159A512500A2EB82 /* SelectLocationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8AA56501594DEA6008B2D96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8AA56511594DEA6008B2D96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8AA56591594DEA6008B2D96 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8AA565A1594DEA6008B2D96 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A8AA565C1594DEA6008B2D96 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8AA565D1594DEA6008B2D96 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8AA56681594DEA7008B2D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8AA56691594DEA7008B2D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8AA566B1594DEA7008B2D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TagMonSpot/TagMonSpot-Prefix.pch";
+				INFOPLIST_FILE = "TagMonSpot/TagMonSpot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8AA566C1594DEA7008B2D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TagMonSpot/TagMonSpot-Prefix.pch";
+				INFOPLIST_FILE = "TagMonSpot/TagMonSpot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8AA563B1594DEA6008B2D96 /* Build configuration list for PBXProject "TagMonSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8AA56681594DEA7008B2D96 /* Debug */,
+				A8AA56691594DEA7008B2D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8AA566A1594DEA7008B2D96 /* Build configuration list for PBXNativeTarget "TagMonSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8AA566B1594DEA7008B2D96 /* Debug */,
+				A8AA566C1594DEA7008B2D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8AA565F1594DEA6008B2D96 /* TagMonSpot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A82FA4AD159A12A100A2EB82 /* TagMonSpot 2.xcdatamodel */,
+				A8AA56601594DEA6008B2D96 /* TagMonSpot.xcdatamodel */,
+			);
+			currentVersion = A8AA56601594DEA6008B2D96 /* TagMonSpot.xcdatamodel */;
+			path = TagMonSpot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8AA56381594DEA6008B2D96 /* Project object */;
+}
