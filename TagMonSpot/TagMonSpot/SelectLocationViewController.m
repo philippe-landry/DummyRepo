@@ -3,7 +3,7 @@
 //  TagMonSpot
 //
 //  Created by Philippe Landry on 12-06-26.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 //
 
 #import "SelectLocationViewController.h"
