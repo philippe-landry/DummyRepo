@@ -3,7 +3,7 @@
 //  TagMonSpot
 //
 //  Created by Philippe Landry on 12-06-22.
-//  Copyright (c) 2014 jcpldev.com. All rights reserved.
+//  Copyright (c) 2015 jcpldev.com. All rights reserved.
 //
 
 #import "AppDelegate.h"
